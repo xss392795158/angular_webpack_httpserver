@@ -1,0 +1,23 @@
+<div>
+<h3>con1</h3>
+	<table>
+		<thead>
+			<tr>
+				<th>op</th>
+				<th>name</th>
+				<th>age</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat = "user in [{id:1}, {id:2}, {id:3}, {id:4}, {id:5}]">
+				<td><button class="btn" ng-click="editUser($index)">edit</button></td>
+				<td>{{user.id}}</td>
+				<td>23+{{user.id}}</td>
+			</tr>
+		</tbody>
+	</table>
+	<button class="btn btn-success"><span class="glyphicon glyphicon-save"></span></button>
+	<form class="form-horizontal">
+		ss
+	</form>
+</div>

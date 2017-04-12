@@ -1,0 +1,28 @@
+{
+  "name": "angular_demo",
+  "version": "1.0.0",
+  "description": "nodejs with angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "http-server -p 8088"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xss392795158/git_add.git"
+  },
+  "author": "xss392795158",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xss392795158/git_add/issues"
+  },
+  "homepage": "https://github.com/xss392795158/git_add#readme",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.3.3",
+	"http-server": "^0.9.0"
+  }
+}
